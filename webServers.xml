@@ -1,0 +1,22 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0bdfcedb-54a2-4407-89c9-b83a514f7522" name="mappeteer.com" url="http://mappeteer.com">
+        <fileTransfer host="mappeteer.com" port="22" privateKey="$USER_HOME$/Dropbox/wenauswebhostkeys.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2a17cc5c-a229-4013-b4b3-a90faac1fa60" name="hepsoftware.org" url="http://hepsoftware.org">
+        <fileTransfer host="hepsoftware.org" port="22" privateKey="$USER_HOME$/Dropbox/hsfserver.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
